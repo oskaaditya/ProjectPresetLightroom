@@ -1,8 +1,10 @@
-package com.example.projectpresetlightroom;
+package com.example.projectpresetlightroom.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.projectpresetlightroom.R;
 
 public class MainActivity extends AppCompatActivity {
 
