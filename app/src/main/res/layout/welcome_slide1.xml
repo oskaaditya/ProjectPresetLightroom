@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen1">
+    android:background="@drawable/slide1">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="259dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/like" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/monumentextendedregular"
+            android:text="@string/slide_1_text"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/slide_1_title"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/slide_title"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/monumentextendedregular"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide_1_desc"
+            android:text="@string/slide_1_text2"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/slide_desc" />
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="172dp"
+            android:layout_height="93dp"
+            app:srcCompat="@drawable/kisspng_adobe_lightroom_computer_icons_logo_computer_icons_letter_steemit_5b0fcf31ca6e36_9353623115277627378292" />
+
 
     </LinearLayout>
+
+
 </RelativeLayout>
