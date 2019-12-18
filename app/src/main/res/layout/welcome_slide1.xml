@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/slide1">
+    android:background="@drawable/sl1">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
             android:id="@+id/imageView"
             android:layout_width="172dp"
             android:layout_height="93dp"
-            app:srcCompat="@drawable/kisspng_adobe_lightroom_computer_icons_logo_computer_icons_letter_steemit_5b0fcf31ca6e36_9353623115277627378292" />
+            app:srcCompat="@drawable/kisspng_adobe_lightroom_android_mobile_phones_apps_5aca6cbfc6ebf3_3206492415232155518148" />
 
 
     </LinearLayout>
